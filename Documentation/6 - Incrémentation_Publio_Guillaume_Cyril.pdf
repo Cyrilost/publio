@@ -1,0 +1,827 @@
+%PDF-1.3
+%�쏢
+1 0 obj
+<</Type/Font/Subtype/Type1/Name/F1/BaseFont/Helvetica/Encoding/WinAnsiEncoding>>
+endobj
+2 0 obj
+<</Type/Font/Subtype/Type1/Name/F2/BaseFont/Helvetica-Bold/Encoding/WinAnsiEncoding>>
+endobj
+3 0 obj
+<</Type/Font/Subtype/Type1/Name/F3/BaseFont/Helvetica-Oblique/Encoding/WinAnsiEncoding>>
+endobj
+4 0 obj
+<</Type/Font/Subtype/Type1/Name/F4/BaseFont/Helvetica-BoldOblique/Encoding/WinAnsiEncoding>>
+endobj
+5 0 obj
+<</Length 12488>>
+stream
+BT 1 0 0 1 72 763 Tm
+/F1 9 Tf 0 0 0 rg 0 0.498 0 rg (/* Test unitaire pour la phase 2)Tj
+0 -10.8 TD
+( * vérification du fonctionnement de la connection :)Tj
+T*
+( * utilisateur avec un mot de passe valide : test avec lenaic)Tj
+T*
+( * utilisateur avec un mot de pass invalide mais avec une phrase valide : test avec yvain)Tj
+T*
+( * utilisateur 1er connection sans mot de passe ni de phrase : test avec cyril)Tj
+T*
+(*/)Tj
+( )Tj
+T*
+/F2 9 Tf 0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (utilisateur)Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (adresse)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (biblio)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (mdp)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_avert_retard)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_avert_etat)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_pret_encours)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nom)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (phrase)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (prenom)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (telephone)Tj
+/F2 9 Tf (\))Tj
+T*
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0.498 0 0.498 rg ('7 rue de l_orge')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('az')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('guillaume')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('courcouronnes')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('lenaic')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('0104070205')Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (utilisateur)Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (nom)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (prenom)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (adresse)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (telephone)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (biblio)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_avert_retard)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_avert_etat)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_pret_encours)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (mdp)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (phrase)Tj
+/F2 9 Tf (\))Tj
+T*
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0.498 0 0.498 rg ('guillaume')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('yvain')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('7 rue de l_orge')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('0104070205')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('qs')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('courcouronnes')Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (utilisateur)Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (nom)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (prenom)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (adresse)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (telephone)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (biblio)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_avert_retard)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_avert_etat)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_pret_encours)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (mdp)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (phrase)Tj
+/F2 9 Tf (\))Tj
+T*
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0.498 0 0.498 rg ('guillaume')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('cyril')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('7 rue de l_orge')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('0104070205')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (false)Tj
+0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (0)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (null)Tj
+0 0 0 rg (,)Tj
+0 0 0.498 rg (null)Tj
+0 0 0 rg (\);)Tj
+T*
+T*
+/F1 9 Tf 0 0.498 0 rg (-- Test unitaire de la phase 3 : visualisation)Tj
+T*
+T*
+(-- Visualisation de l'ensemble des livres)Tj
+T*
+/F2 9 Tf 0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (livre)Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (titre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (sous_titre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (tome)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (auteur)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_page)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (etat_livre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (\))Tj
+T*
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0.498 0 0.498 rg ('Achille')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (null)Tj
+0 0 0 rg (,)Tj
+0 0 0.498 rg (null)Tj
+0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('claude merle')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (172)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (livre)Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (titre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (sous_titre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (tome)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (auteur)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_page)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (etat_livre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (\))Tj
+T*
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0.498 0 0.498 rg ('Méthode mathématique')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('cours et exercices')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (null)Tj
+0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('Jacqu Velu')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (421)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (livre)Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (titre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (sous_titre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (tome)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (auteur)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_page)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (etat_livre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (\))Tj
+T*
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0.498 0 0.498 rg ('Star Wars')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('legacy')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('4')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('Jan Duursema')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (104)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+/F1 9 Tf 0 0.498 0 rg (/* Visualisation de livre en cours d'emprunt)Tj
+T*
+( \(cyril emprunte à lenaïc, le livre Achille\)*/)Tj
+T*
+( )Tj
+/F2 9 Tf 0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (autoriser)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_util)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (reponse)Tj
+/F2 9 Tf (\))Tj
+T*
+( )Tj
+0 0 0.498 rg (VALUES)Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (3)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (\);)Tj
+T*
+( )Tj
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (demander)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_user_dem)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_livre_dem)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_user_det)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (reponse)Tj
+/F2 9 Tf (\))Tj
+T*
+( )Tj
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (3)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (\);)Tj
+T*
+( )Tj
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (lier)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_util)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (\))Tj
+T*
+( )Tj
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (3)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+( )Tj
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (pret_ret)Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_livre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_empr1)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (date_retour_prevu)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_det)Tj
+/F2 9 Tf (\))Tj
+T*
+( )Tj
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (3)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('20180629')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+( )Tj
+0 0 0.498 rg (UPDATE)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (livre)Tj
+( )Tj
+/F2 9 Tf 0 0 0.498 rg (SET)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (date_retour_pr)Tj
+0.502 0.502 0.502 rg (é)Tj
+0 0 0 rg (vu)Tj
+/F2 9 Tf (=)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('20180629')Tj
+( )Tj
+/F2 9 Tf 0 0 0.498 rg (WHERE)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (id_livre)Tj
+/F2 9 Tf (=)Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (;)Tj
+T*
+( )Tj
+0 0 0.498 rg (UPDATE)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (utilisateur)Tj
+( )Tj
+/F2 9 Tf 0 0 0.498 rg (SET)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (nb_pret_encours)Tj
+( )Tj
+/F2 9 Tf (=)Tj
+( )Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+( )Tj
+/F2 9 Tf 0 0 0.498 rg (WHERE)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (id_user)Tj
+/F2 9 Tf (=)Tj
+/F1 9 Tf 0 0.498 0.498 rg (3)Tj
+/F2 9 Tf 0 0 0 rg (;)Tj
+T*
+( )Tj
+/F1 9 Tf 0 0.498 0 rg (/* visualiser les demande de prêt)Tj
+T*
+( Lenaic demande l'emprunt du livre d'yvain */)Tj
+T*
+( )Tj
+/F2 9 Tf 0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (autoriser)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_util)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (reponse)Tj
+/F2 9 Tf (\))Tj
+T*
+( )Tj
+0 0 0.498 rg (VALUES)Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (\);)Tj
+T*
+( )Tj
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (demander)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_user_dem)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_livre_dem)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_user_det)Tj
+/F2 9 Tf (\))Tj
+T*
+( )Tj
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+( )Tj
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (lier)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_util)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (\))Tj
+T*
+( )Tj
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+( )Tj
+/F1 9 Tf 0 0.498 0 rg (/* visualiser les demande d'autorisation)Tj
+T*
+( yvain a fait une demande d'acces au livre de lenaïc*/)Tj
+T*
+( )Tj
+/F2 9 Tf 0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (autoriser)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_util)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (\))Tj
+T*
+( )Tj
+0 0 0.498 rg (VALUES)Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (1)Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+( )Tj
+/F1 9 Tf 0 0.498 0 rg (/* visualiser les livre de sa bibliothèque)Tj
+T*
+( visualsation de ceux de Lenaïc qui en possède 2)Tj
+T*
+( visualsation de ceux d'Yvain qui en possède 1)Tj
+T*
+( )Tj
+T*
+/F1 9 Tf 0 0.498 0 rg ( * visualiser les demandes de prêt à traiter)Tj
+T*
+( * visualiser les demande d'autorisation à traiter)Tj
+T*
+( */)Tj
+T*
+T*
+(-- Test unitaire de la phase 4 : interrogation)Tj
+T*
+T*
+(/*rechercher les livres empruntés)Tj
+T*
+( *rechercher les informations d'un livre)Tj
+T*
+( *Rechercher la liste des livres lus par l'un des ses utilisateurs)Tj
+T*
+( *Rechercher les informations d'un membre)Tj
+T*
+( */)Tj
+T*
+/F2 9 Tf 0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (livre)Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (titre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (sous_titre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (tome)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (auteur)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (nb_page)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (etat_livre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (\))Tj
+T*
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0.498 0 0.498 rg ('télérama')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('condamnée a l exil')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('3466')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('groupe le monde')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (146)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (autoriser)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_util)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (reponse)Tj
+/F2 9 Tf (\))Tj
+ET
+endstream
+endobj
+6 0 obj
+<</Length 2682>>
+stream
+BT 1 0 0 1 72 763 Tm
+/F2 9 Tf 0 0 0 rg 0 0 0.498 rg (VALUES)Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (3)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (\);)Tj
+0 -10.8 TD
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (demander)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_user_dem)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_livre_dem)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_user_det)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (reponse)Tj
+/F2 9 Tf (\))Tj
+T*
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (3)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (4)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (\);)Tj
+T*
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (lier)Tj
+( )Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_util)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_mod)Tj
+/F2 9 Tf (\))Tj
+T*
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (3)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+0 0 0.498 rg (INSERT)Tj
+( )Tj
+(INTO)Tj
+( )Tj
+/F1 9 Tf 0 0 0 rg (pret_ret)Tj
+/F2 9 Tf (\()Tj
+/F1 9 Tf (id_livre)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_empr1)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (date_retour_prevu)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (id_det)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (etat_livre_rendu)Tj
+/F2 9 Tf (,)Tj
+/F1 9 Tf (date_retour_reel)Tj
+/F2 9 Tf (\))Tj
+T*
+0 0 0.498 rg (VALUES)Tj
+( )Tj
+0 0 0 rg (\()Tj
+/F1 9 Tf 0 0.498 0.498 rg (4)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (3)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('20180624')Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+/F1 9 Tf 0 0.498 0.498 rg (2)Tj
+/F2 9 Tf 0 0 0 rg (,)Tj
+0 0 0.498 rg (true)Tj
+0 0 0 rg (,)Tj
+/F1 9 Tf 0.498 0 0.498 rg ('20180623')Tj
+/F2 9 Tf 0 0 0 rg (\);)Tj
+T*
+T*
+/F1 9 Tf 0 0.498 0 rg (/* Test unitaire de la phase 5 : les entrées)Tj
+T*
+T*
+(Connection avec le compte de Lenaïc pour faire :)Tj
+T*
+(        modifier son compte)Tj
+T*
+(        créer un compte utilisateur)Tj
+T*
+(        créer un livre)Tj
+T*
+(        modifier dans un compte utilisateur)Tj
+T*
+(        modifier dans un livre de sa bibliothèque, ainsi que la date de prêt)Tj
+T*
+T*
+(Avec le nouveau compte créer faire :   )Tj
+T*
+(        Demander une autorisation accès à une bibliothèque   \(celle d'Yvain\))Tj
+T*
+(        Demander le prêt d'un livre \(au près de lenaic\))Tj
+T*
+T*
+(Se connecter avec le compte de yvain pour :)Tj
+T*
+(        Répondre à une demande d'autorisation d'acces à la bibliothèque)Tj
+T*
+T*
+(Se connecter avec le compte de Lenaïc pour :   )Tj
+T*
+(        Répondre à un utilisateur sur le prêt d'un livre)Tj
+T*
+(*/)Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<</ProcSet[/PDF/Text]
+/Font<</F1 1 0 R/F2 2 0 R/F3 3 0 R/F4 4 0 R>> >>
+endobj
+8 0 obj
+<</Type/Page/Parent 10 0 R
+/MediaBox[ 0 0 595 842]
+/Contents 5 0 R
+/Resources 7 0 R
+>>
+endobj
+9 0 obj
+<</Type/Page/Parent 10 0 R
+/MediaBox[ 0 0 595 842]
+/Contents 6 0 R
+/Resources 7 0 R
+>>
+endobj
+10 0 obj
+<</Type/Pages/Kids[
+8 0 R
+9 0 R
+]/Count 2
+>>
+endobj
+11 0 obj
+<</Type/Catalog/Pages 10 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000111 00000 n 
+0000000212 00000 n 
+0000000316 00000 n 
+0000000424 00000 n 
+0000012963 00000 n 
+0000015695 00000 n 
+0000015781 00000 n 
+0000015883 00000 n 
+0000015985 00000 n 
+0000016046 00000 n 
+trailer
+<< /Size 12 /Root 11 0 R
+>>
+startxref
+16094
+%%EOF

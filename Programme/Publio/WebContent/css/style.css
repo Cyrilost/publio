@@ -1,0 +1,100 @@
+/* Général --------------------------*/
+body, p, legend, label, input {
+font: normal 12pt verdana, helvetica, sans-serif;
+}
+/* Forms -----------------------------*/
+div img {
+border: 1px solid #0568CD;
+padding: 5px;
+width: 150px;
+border-radius: 4px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 0 0 7px rgba(0,0,0, 0.5);
+}
+fieldset {
+padding: 10px;
+border: 1px #0568CD solid;
+border-radius: 10px 10px 5px 5px;
+margin: 20px;
+box-shadow: 0 0 7px rgba(0,0,0, 0.5);
+background-color:#F5F5F5;
+}
+legend {
+font-weight: bold;
+color: #0568CD;
+margin : 20px 0px 0px 0px;
+padding : 15px 0px 0px 0px;
+}
+form label {
+float: left;
+width: 400px;
+margin: 3px 0px 0px 0px;
+}
+form input {
+margin: 3px 3px 0px 0px;
+border: 1px #999 solid;
+}
+form input.sansLabel {
+margin-left: 300px;
+}
+input[type=submit] {
+	margin: 20px; 
+    padding:5px 15px; 
+    background:#F5F5F5; 
+    border:0 none;
+    color: #0568CD;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+input[type=button]{
+	margin: 20px; 
+    padding:5px 15px; 
+    background:#F5F5F5; 
+    border:0 none;
+    color: #c00;;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+/* Styles et couleurs ----------------------------------------------
+---------------------------- */
+
+.requis {
+	color: #c00;
+}
+.erreur {
+	margin: 20px;
+	font-weight: bold;
+	color: #900;
+}
+.succes {
+	margin: 20px;
+	color: #090;
+}
+.info {
+	margin: 20px;
+	font-style: italic;
+	color: #E8A22B;
+}
+
+/* Style tableau */
+table {
+border: 1px #0568CD solid;
+border-collapse: collapse;
+margin-left: auto;
+margin-right: auto;
+}
+th {
+border: 1px #0568CD solid;
+padding: 5px;
+background-color: #D0E3FA;
+}
+td {
+border: 1px #0568CD solid;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
