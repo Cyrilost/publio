@@ -9,5 +9,5 @@ une tache : créer l'architecture JEE de l'application
 
 
 ## publio v2
- -- On oublie presque tout et on recommence !
- -- Pour le redébut, la note de cadrage ..
+* On oublie presque tout et on recommence !
+* Pour le redébut, la note de cadrage ...
